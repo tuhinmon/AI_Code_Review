@@ -3,6 +3,6 @@ const app  = require('./src/app');
 
 
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT,()=>{
      console.log("server is running port no 3000");
 })
